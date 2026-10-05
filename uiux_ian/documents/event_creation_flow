@@ -1,0 +1,27 @@
+# Event Creation User Flow
+
+1. Open the app.
+2. If not signed in, enter login details.
+   - If login fails, show an error and allow another attempt.
+   - If login succeeds, go to Home.
+3. On Home, select “Add.”
+4. Choose the type: Event, Appointment, or Deadline.
+5. Enter a title, date, and time.
+6. Optionally enter a class and location.
+7. Choose reminders:
+   - One week before.
+   - One day before.
+   - On the due date.
+8. Select “Save.”
+9. Validate the required fields.
+   - If information is missing or invalid, highlight the
+     fields and let the user correct them.
+   - If valid, save the item.
+10. Show a confirmation and return to Home.
+11. Display the new item in the combined upcoming list.
+
+Cancel: Return to Home without saving the new item.
+
+Research connection: A combined upcoming list and multiple
+reminders address Emily's difficulty remembering deadlines
+between CourseDen logins.
