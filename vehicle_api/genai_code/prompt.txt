@@ -1,0 +1,4 @@
+Generate a beginner-friendly FastAPI REST API using Python and a uv project structure to track vehicle manufacturers and their vehicles. 
+Use an in-memory database with complete create, read, update, and delete operations for both manufacturers and vehicles. 
+Each vehicle should reference a manufacturer. Include input validation, errors for missing records, and an endpoint to list vehicles by 
+manufacturer. Provide the code and the uv command to run it so I can test endpoints at localhost:8000/docs.
